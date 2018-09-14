@@ -1,0 +1,435 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{052D29E6-72B7-35C4-AA2C-21FE68A6C23E}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.17134.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>ALL_BUILD</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\sourceopengl\LearnOpenGL-master\LearnOpenGL-master\build\configuration;C:\sourceopengl\LearnOpenGL-master\LearnOpenGL-master\includes;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\sourceopengl\LearnOpenGL-master\LearnOpenGL-master\build\configuration;C:\sourceopengl\LearnOpenGL-master\LearnOpenGL-master\includes;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\sourceopengl\LearnOpenGL-master\LearnOpenGL-master\build\configuration;C:\sourceopengl\LearnOpenGL-master\LearnOpenGL-master\includes;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\sourceopengl\LearnOpenGL-master\LearnOpenGL-master\build\configuration;C:\sourceopengl\LearnOpenGL-master\LearnOpenGL-master\includes;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\sourceopengl\LearnOpenGL-master\LearnOpenGL-master\build\ZERO_CHECK.vcxproj">
+      <Project>{918F3D16-277D-3A7E-BECB-0A32C2DC68AC}</Project>
+      <Name>ZERO_CHECK</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\sourceopengl\LearnOpenGL-master\LearnOpenGL-master\build\1.getting_started__1.1.hello_window.vcxproj">
+      <Project>{570271D5-9AAE-3752-B5F5-F309FE3D4F72}</Project>
+      <Name>1.getting_started__1.1.hello_window</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\sourceopengl\LearnOpenGL-master\LearnOpenGL-master\build\1.getting_started__1.2.hello_window_clear.vcxproj">
+      <Project>{47419EA0-E4E9-3753-ABFA-BB2D35AEBECB}</Project>
+      <Name>1.getting_started__1.2.hello_window_clear</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\sourceopengl\LearnOpenGL-master\LearnOpenGL-master\build\1.getting_started__2.1.hello_triangle.vcxproj">
+      <Project>{2192E389-9A94-37C5-AE73-C2526C4DCE24}</Project>
+      <Name>1.getting_started__2.1.hello_triangle</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\sourceopengl\LearnOpenGL-master\LearnOpenGL-master\build\1.getting_started__2.2.hello_triangle_indexed.vcxproj">
+      <Project>{16F9EF03-F8FD-39BE-A0D1-1C2E42BB51CA}</Project>
+      <Name>1.getting_started__2.2.hello_triangle_indexed</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\sourceopengl\LearnOpenGL-master\LearnOpenGL-master\build\1.getting_started__2.3.hello_triangle_exercise1.vcxproj">
+      <Project>{13222712-6BD1-3BAD-9E43-99EE0B2C1435}</Project>
+      <Name>1.getting_started__2.3.hello_triangle_exercise1</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\sourceopengl\LearnOpenGL-master\LearnOpenGL-master\build\1.getting_started__2.4.hello_triangle_exercise2.vcxproj">
+      <Project>{7F990574-79D1-38D0-ADA7-79D92DB2C076}</Project>
+      <Name>1.getting_started__2.4.hello_triangle_exercise2</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\sourceopengl\LearnOpenGL-master\LearnOpenGL-master\build\1.getting_started__2.5.hello_triangle_exercise3.vcxproj">
+      <Project>{50C7EFF4-111E-372F-B2CC-0CBDC5672763}</Project>
+      <Name>1.getting_started__2.5.hello_triangle_exercise3</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\sourceopengl\LearnOpenGL-master\LearnOpenGL-master\build\1.getting_started__3.1.shaders_uniform.vcxproj">
+      <Project>{632E84FD-D48C-3FDA-ABD9-8E30C3B80236}</Project>
+      <Name>1.getting_started__3.1.shaders_uniform</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\sourceopengl\LearnOpenGL-master\LearnOpenGL-master\build\1.getting_started__3.2.shaders_interpolation.vcxproj">
+      <Project>{EE3735F3-EFB0-3BE5-9C8C-2FC50AB5C368}</Project>
+      <Name>1.getting_started__3.2.shaders_interpolation</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\sourceopengl\LearnOpenGL-master\LearnOpenGL-master\build\1.getting_started__3.3.shaders_class.vcxproj">
+      <Project>{0202ADEF-2461-3204-89E1-B6B2C54761B8}</Project>
+      <Name>1.getting_started__3.3.shaders_class</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\sourceopengl\LearnOpenGL-master\LearnOpenGL-master\build\1.getting_started__4.1.textures.vcxproj">
+      <Project>{8DC1CCC7-F207-3B82-BC7F-84EA4C41E87E}</Project>
+      <Name>1.getting_started__4.1.textures</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\sourceopengl\LearnOpenGL-master\LearnOpenGL-master\build\1.getting_started__4.2.textures_combined.vcxproj">
+      <Project>{31DE7B2D-49E8-34A1-B629-F80B543B696D}</Project>
+      <Name>1.getting_started__4.2.textures_combined</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\sourceopengl\LearnOpenGL-master\LearnOpenGL-master\build\1.getting_started__4.3.textures_exercise2.vcxproj">
+      <Project>{18FAFE8C-18A8-36EA-9C6B-B2EC0E86CD23}</Project>
+      <Name>1.getting_started__4.3.textures_exercise2</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\sourceopengl\LearnOpenGL-master\LearnOpenGL-master\build\1.getting_started__4.4.textures_exercise3.vcxproj">
+      <Project>{8F404DBF-915B-3E5E-B07D-188A17872618}</Project>
+      <Name>1.getting_started__4.4.textures_exercise3</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\sourceopengl\LearnOpenGL-master\LearnOpenGL-master\build\1.getting_started__4.5.textures_exercise4.vcxproj">
+      <Project>{167C2A25-FA2E-3292-94E1-40E6B823B7A6}</Project>
+      <Name>1.getting_started__4.5.textures_exercise4</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\sourceopengl\LearnOpenGL-master\LearnOpenGL-master\build\1.getting_started__5.1.transformations.vcxproj">
+      <Project>{47A59E39-510B-3B34-8887-308D0B7A572E}</Project>
+      <Name>1.getting_started__5.1.transformations</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\sourceopengl\LearnOpenGL-master\LearnOpenGL-master\build\1.getting_started__5.2.transformations_exercise2.vcxproj">
+      <Project>{10840035-5136-340D-8499-B99BBA6A5EA2}</Project>
+      <Name>1.getting_started__5.2.transformations_exercise2</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\sourceopengl\LearnOpenGL-master\LearnOpenGL-master\build\1.getting_started__6.1.coordinate_systems.vcxproj">
+      <Project>{93DD61A7-F301-3206-BD42-56FFE2FD3F70}</Project>
+      <Name>1.getting_started__6.1.coordinate_systems</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\sourceopengl\LearnOpenGL-master\LearnOpenGL-master\build\1.getting_started__6.2.coordinate_systems_depth.vcxproj">
+      <Project>{6A6BAA3B-24FC-3D7E-9458-B147A6404C86}</Project>
+      <Name>1.getting_started__6.2.coordinate_systems_depth</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\sourceopengl\LearnOpenGL-master\LearnOpenGL-master\build\1.getting_started__6.3.coordinate_systems_multiple.vcxproj">
+      <Project>{2DDABF55-D438-3299-AEFD-305A46F47453}</Project>
+      <Name>1.getting_started__6.3.coordinate_systems_multiple</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\sourceopengl\LearnOpenGL-master\LearnOpenGL-master\build\1.getting_started__7.1.camera_circle.vcxproj">
+      <Project>{F1966B43-0A7E-3D8F-84E9-74F3B78C6E0B}</Project>
+      <Name>1.getting_started__7.1.camera_circle</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\sourceopengl\LearnOpenGL-master\LearnOpenGL-master\build\1.getting_started__7.2.camera_keyboard_dt.vcxproj">
+      <Project>{7F20C06E-3F88-387E-975E-6AAE13F3EABC}</Project>
+      <Name>1.getting_started__7.2.camera_keyboard_dt</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\sourceopengl\LearnOpenGL-master\LearnOpenGL-master\build\1.getting_started__7.3.camera_mouse_zoom.vcxproj">
+      <Project>{A2782387-096B-3C0E-809D-8128E85CFFCC}</Project>
+      <Name>1.getting_started__7.3.camera_mouse_zoom</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\sourceopengl\LearnOpenGL-master\LearnOpenGL-master\build\1.getting_started__7.4.camera_class.vcxproj">
+      <Project>{EA1E7FD5-A333-36E4-99CF-B8A58147D77A}</Project>
+      <Name>1.getting_started__7.4.camera_class</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\sourceopengl\LearnOpenGL-master\LearnOpenGL-master\build\2.lighting__1.colors.vcxproj">
+      <Project>{8DEBA8F6-31A6-3D6D-88E8-49B0EFDF25D0}</Project>
+      <Name>2.lighting__1.colors</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\sourceopengl\LearnOpenGL-master\LearnOpenGL-master\build\2.lighting__2.1.basic_lighting_diffuse.vcxproj">
+      <Project>{AA6A3162-33F0-3858-9F03-1D451C34A374}</Project>
+      <Name>2.lighting__2.1.basic_lighting_diffuse</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\sourceopengl\LearnOpenGL-master\LearnOpenGL-master\build\2.lighting__2.2.basic_lighting_specular.vcxproj">
+      <Project>{75545B49-8587-36C0-9991-58D85844289F}</Project>
+      <Name>2.lighting__2.2.basic_lighting_specular</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\sourceopengl\LearnOpenGL-master\LearnOpenGL-master\build\2.lighting__3.1.materials.vcxproj">
+      <Project>{8C36E1F7-FFC8-397F-A280-5285C01B4916}</Project>
+      <Name>2.lighting__3.1.materials</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\sourceopengl\LearnOpenGL-master\LearnOpenGL-master\build\2.lighting__3.2.materials_exercise1.vcxproj">
+      <Project>{6F32583C-F716-3357-8DD9-C1E7B86D1950}</Project>
+      <Name>2.lighting__3.2.materials_exercise1</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\sourceopengl\LearnOpenGL-master\LearnOpenGL-master\build\2.lighting__4.1.lighting_maps_diffuse_map.vcxproj">
+      <Project>{8FDFC365-83FC-346E-9A1A-D34C2C2C8271}</Project>
+      <Name>2.lighting__4.1.lighting_maps_diffuse_map</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\sourceopengl\LearnOpenGL-master\LearnOpenGL-master\build\2.lighting__4.2.lighting_maps_specular_map.vcxproj">
+      <Project>{92138C4E-27A1-3976-80F7-98888E82399E}</Project>
+      <Name>2.lighting__4.2.lighting_maps_specular_map</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\sourceopengl\LearnOpenGL-master\LearnOpenGL-master\build\2.lighting__4.3.lighting_maps_exercise4.vcxproj">
+      <Project>{805DBA00-E418-3794-9019-CA20ABB1A3B9}</Project>
+      <Name>2.lighting__4.3.lighting_maps_exercise4</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\sourceopengl\LearnOpenGL-master\LearnOpenGL-master\build\2.lighting__5.1.light_casters_directional.vcxproj">
+      <Project>{FA527E20-8DB7-3048-83CE-A07AD19D8B99}</Project>
+      <Name>2.lighting__5.1.light_casters_directional</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\sourceopengl\LearnOpenGL-master\LearnOpenGL-master\build\2.lighting__5.2.light_casters_point.vcxproj">
+      <Project>{55E79F5A-84FE-3AB7-A527-FA1917BBA764}</Project>
+      <Name>2.lighting__5.2.light_casters_point</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\sourceopengl\LearnOpenGL-master\LearnOpenGL-master\build\2.lighting__5.3.light_casters_spot.vcxproj">
+      <Project>{6DF5BBC2-79C1-39DC-B9C0-0A1B9BDE3B7E}</Project>
+      <Name>2.lighting__5.3.light_casters_spot</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\sourceopengl\LearnOpenGL-master\LearnOpenGL-master\build\2.lighting__5.4.light_casters_spot_soft.vcxproj">
+      <Project>{EADFE013-F9E4-3E67-9C61-7511E88EE5A8}</Project>
+      <Name>2.lighting__5.4.light_casters_spot_soft</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\sourceopengl\LearnOpenGL-master\LearnOpenGL-master\build\2.lighting__6.multiple_lights.vcxproj">
+      <Project>{915CD689-1112-3FEB-8A2C-B9C1968889AD}</Project>
+      <Name>2.lighting__6.multiple_lights</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\sourceopengl\LearnOpenGL-master\LearnOpenGL-master\build\3.model_loading__1.model_loading.vcxproj">
+      <Project>{7704E798-2FCC-3BC0-9E6F-E1B3AE39979D}</Project>
+      <Name>3.model_loading__1.model_loading</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\sourceopengl\LearnOpenGL-master\LearnOpenGL-master\build\4.advanced_opengl__1.1.depth_testing.vcxproj">
+      <Project>{FD99B876-17BC-3771-91C3-E6EB729A6B95}</Project>
+      <Name>4.advanced_opengl__1.1.depth_testing</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\sourceopengl\LearnOpenGL-master\LearnOpenGL-master\build\4.advanced_opengl__1.2.depth_testing_view.vcxproj">
+      <Project>{B7DFE4F2-4701-3259-BC27-DBA7AA4BD833}</Project>
+      <Name>4.advanced_opengl__1.2.depth_testing_view</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\sourceopengl\LearnOpenGL-master\LearnOpenGL-master\build\4.advanced_opengl__10.1.instancing_quads.vcxproj">
+      <Project>{4816EFE4-43CC-339C-9CA6-CE096C7CF051}</Project>
+      <Name>4.advanced_opengl__10.1.instancing_quads</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\sourceopengl\LearnOpenGL-master\LearnOpenGL-master\build\4.advanced_opengl__10.2.asteroids.vcxproj">
+      <Project>{B8B7A3E9-BD7D-38C2-B03C-E4AFA0C1C718}</Project>
+      <Name>4.advanced_opengl__10.2.asteroids</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\sourceopengl\LearnOpenGL-master\LearnOpenGL-master\build\4.advanced_opengl__10.3.asteroids_instanced.vcxproj">
+      <Project>{6C058B9C-0CF6-3E44-8F63-FD82EFA68AA9}</Project>
+      <Name>4.advanced_opengl__10.3.asteroids_instanced</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\sourceopengl\LearnOpenGL-master\LearnOpenGL-master\build\4.advanced_opengl__11.anti_aliasing_offscreen.vcxproj">
+      <Project>{FF573CA1-8E32-35E6-83BE-E0842EC013E6}</Project>
+      <Name>4.advanced_opengl__11.anti_aliasing_offscreen</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\sourceopengl\LearnOpenGL-master\LearnOpenGL-master\build\4.advanced_opengl__2.stencil_testing.vcxproj">
+      <Project>{D20E802D-2905-333B-B9CD-5FC6250F73EB}</Project>
+      <Name>4.advanced_opengl__2.stencil_testing</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\sourceopengl\LearnOpenGL-master\LearnOpenGL-master\build\4.advanced_opengl__3.1.blending_discard.vcxproj">
+      <Project>{3B4D09DD-4250-3DBF-BA77-4BE4A56FDAC3}</Project>
+      <Name>4.advanced_opengl__3.1.blending_discard</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\sourceopengl\LearnOpenGL-master\LearnOpenGL-master\build\4.advanced_opengl__3.2.blending_sort.vcxproj">
+      <Project>{D04BAABE-B894-3BEF-99F7-787D1930B4D2}</Project>
+      <Name>4.advanced_opengl__3.2.blending_sort</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\sourceopengl\LearnOpenGL-master\LearnOpenGL-master\build\4.advanced_opengl__5.1.framebuffers.vcxproj">
+      <Project>{BE72E484-5BAA-3404-9EF4-250CB7F5B5E6}</Project>
+      <Name>4.advanced_opengl__5.1.framebuffers</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\sourceopengl\LearnOpenGL-master\LearnOpenGL-master\build\4.advanced_opengl__5.2.framebuffers_exercise1.vcxproj">
+      <Project>{A3F973B0-8799-3631-A1C5-53FFC48FE2E1}</Project>
+      <Name>4.advanced_opengl__5.2.framebuffers_exercise1</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\sourceopengl\LearnOpenGL-master\LearnOpenGL-master\build\4.advanced_opengl__6.1.cubemaps_skybox.vcxproj">
+      <Project>{B1A17C41-C0E4-3C21-AEAA-A693BBF2A9A5}</Project>
+      <Name>4.advanced_opengl__6.1.cubemaps_skybox</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\sourceopengl\LearnOpenGL-master\LearnOpenGL-master\build\4.advanced_opengl__6.2.cubemaps_environment_mapping.vcxproj">
+      <Project>{48F68ED4-CDE6-3869-8257-0778B2DEF32F}</Project>
+      <Name>4.advanced_opengl__6.2.cubemaps_environment_mapping</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\sourceopengl\LearnOpenGL-master\LearnOpenGL-master\build\4.advanced_opengl__8.advanced_glsl_ubo.vcxproj">
+      <Project>{62B3D494-B0E7-350A-B9F3-CDBE1AAE847A}</Project>
+      <Name>4.advanced_opengl__8.advanced_glsl_ubo</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\sourceopengl\LearnOpenGL-master\LearnOpenGL-master\build\4.advanced_opengl__9.1.geometry_shader_houses.vcxproj">
+      <Project>{E64985F5-CF0C-33B0-A2ED-61FA0B7A3F51}</Project>
+      <Name>4.advanced_opengl__9.1.geometry_shader_houses</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\sourceopengl\LearnOpenGL-master\LearnOpenGL-master\build\4.advanced_opengl__9.2.geometry_shader_exploding.vcxproj">
+      <Project>{304FF235-0B45-3A1D-BAC3-3F8E525ED5AF}</Project>
+      <Name>4.advanced_opengl__9.2.geometry_shader_exploding</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\sourceopengl\LearnOpenGL-master\LearnOpenGL-master\build\4.advanced_opengl__9.3.geometry_shader_normals.vcxproj">
+      <Project>{74308B85-80AA-3936-B0D0-1A07DA3DB61A}</Project>
+      <Name>4.advanced_opengl__9.3.geometry_shader_normals</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\sourceopengl\LearnOpenGL-master\LearnOpenGL-master\build\5.advanced_lighting__1.advanced_lighting.vcxproj">
+      <Project>{336C9C9C-80F8-391D-99B3-82D1612374CF}</Project>
+      <Name>5.advanced_lighting__1.advanced_lighting</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\sourceopengl\LearnOpenGL-master\LearnOpenGL-master\build\5.advanced_lighting__2.gamma_correction.vcxproj">
+      <Project>{32C9F47B-46F2-39FB-9814-5DC4289686FE}</Project>
+      <Name>5.advanced_lighting__2.gamma_correction</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\sourceopengl\LearnOpenGL-master\LearnOpenGL-master\build\5.advanced_lighting__3.1.1.shadow_mapping_depth.vcxproj">
+      <Project>{BD674BDF-9B70-3126-996C-B75E68A6A8F7}</Project>
+      <Name>5.advanced_lighting__3.1.1.shadow_mapping_depth</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\sourceopengl\LearnOpenGL-master\LearnOpenGL-master\build\5.advanced_lighting__3.1.2.shadow_mapping_base.vcxproj">
+      <Project>{24275C4D-FFB0-312F-9FDF-754BB96DBD10}</Project>
+      <Name>5.advanced_lighting__3.1.2.shadow_mapping_base</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\sourceopengl\LearnOpenGL-master\LearnOpenGL-master\build\5.advanced_lighting__3.1.3.shadow_mapping.vcxproj">
+      <Project>{39F2756F-0312-3953-A519-A668ECDF7C88}</Project>
+      <Name>5.advanced_lighting__3.1.3.shadow_mapping</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\sourceopengl\LearnOpenGL-master\LearnOpenGL-master\build\5.advanced_lighting__3.2.1.point_shadows.vcxproj">
+      <Project>{B8B1FC2B-8C7B-32E3-B844-277A8B866E46}</Project>
+      <Name>5.advanced_lighting__3.2.1.point_shadows</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\sourceopengl\LearnOpenGL-master\LearnOpenGL-master\build\5.advanced_lighting__3.2.2.point_shadows_soft.vcxproj">
+      <Project>{2F881A40-3777-3808-B296-E0FC6D8D1166}</Project>
+      <Name>5.advanced_lighting__3.2.2.point_shadows_soft</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\sourceopengl\LearnOpenGL-master\LearnOpenGL-master\build\5.advanced_lighting__4.normal_mapping.vcxproj">
+      <Project>{EEE15331-0336-3FBD-A56C-CFACEF00C358}</Project>
+      <Name>5.advanced_lighting__4.normal_mapping</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\sourceopengl\LearnOpenGL-master\LearnOpenGL-master\build\5.advanced_lighting__5.1.parallax_mapping.vcxproj">
+      <Project>{ACC65541-0D4A-3AA9-BEAB-C8906AD7F76B}</Project>
+      <Name>5.advanced_lighting__5.1.parallax_mapping</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\sourceopengl\LearnOpenGL-master\LearnOpenGL-master\build\5.advanced_lighting__5.2.steep_parallax_mapping.vcxproj">
+      <Project>{3BB62E7A-1DFB-3A93-80BB-8FAB7E81906B}</Project>
+      <Name>5.advanced_lighting__5.2.steep_parallax_mapping</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\sourceopengl\LearnOpenGL-master\LearnOpenGL-master\build\5.advanced_lighting__5.3.parallax_occlusion_mapping.vcxproj">
+      <Project>{A1F2B1BC-9897-3B91-9805-1E08B41ADBC6}</Project>
+      <Name>5.advanced_lighting__5.3.parallax_occlusion_mapping</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\sourceopengl\LearnOpenGL-master\LearnOpenGL-master\build\5.advanced_lighting__6.hdr.vcxproj">
+      <Project>{EA272FD5-98F5-3227-939D-0FC6E0CC0317}</Project>
+      <Name>5.advanced_lighting__6.hdr</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\sourceopengl\LearnOpenGL-master\LearnOpenGL-master\build\5.advanced_lighting__7.bloom.vcxproj">
+      <Project>{9387E11D-82DA-3A6C-A0D7-6C76D928409C}</Project>
+      <Name>5.advanced_lighting__7.bloom</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\sourceopengl\LearnOpenGL-master\LearnOpenGL-master\build\5.advanced_lighting__8.1.deferred_shading.vcxproj">
+      <Project>{9EA1E802-AAC4-3908-A18A-074ABCA81496}</Project>
+      <Name>5.advanced_lighting__8.1.deferred_shading</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\sourceopengl\LearnOpenGL-master\LearnOpenGL-master\build\5.advanced_lighting__8.2.deferred_shading_volumes.vcxproj">
+      <Project>{4A386967-BF26-37D4-9718-2D1E8093243A}</Project>
+      <Name>5.advanced_lighting__8.2.deferred_shading_volumes</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\sourceopengl\LearnOpenGL-master\LearnOpenGL-master\build\5.advanced_lighting__9.ssao.vcxproj">
+      <Project>{95C4A306-0214-3252-BF92-D2C8913657CB}</Project>
+      <Name>5.advanced_lighting__9.ssao</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\sourceopengl\LearnOpenGL-master\LearnOpenGL-master\build\6.pbr__1.1.lighting.vcxproj">
+      <Project>{245662AC-6D4E-34F1-A418-0A0B5B44DE5B}</Project>
+      <Name>6.pbr__1.1.lighting</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\sourceopengl\LearnOpenGL-master\LearnOpenGL-master\build\6.pbr__1.2.lighting_textured.vcxproj">
+      <Project>{C72103F3-EEAE-33D1-8A76-2E3F6C49C76E}</Project>
+      <Name>6.pbr__1.2.lighting_textured</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\sourceopengl\LearnOpenGL-master\LearnOpenGL-master\build\6.pbr__2.1.1.ibl_irradiance_conversion.vcxproj">
+      <Project>{FE3EA12E-E5DA-37A1-9A95-D49DE76B50F9}</Project>
+      <Name>6.pbr__2.1.1.ibl_irradiance_conversion</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\sourceopengl\LearnOpenGL-master\LearnOpenGL-master\build\6.pbr__2.1.2.ibl_irradiance.vcxproj">
+      <Project>{BB1671A2-07AE-371C-A0DA-3DEFE53381F6}</Project>
+      <Name>6.pbr__2.1.2.ibl_irradiance</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\sourceopengl\LearnOpenGL-master\LearnOpenGL-master\build\6.pbr__2.2.1.ibl_specular.vcxproj">
+      <Project>{136D1C7A-B697-3C28-BE88-21AE9D09AB92}</Project>
+      <Name>6.pbr__2.2.1.ibl_specular</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\sourceopengl\LearnOpenGL-master\LearnOpenGL-master\build\6.pbr__2.2.2.ibl_specular_textured.vcxproj">
+      <Project>{5510B6D3-81F4-3683-8055-5F89C1D06A94}</Project>
+      <Name>6.pbr__2.2.2.ibl_specular_textured</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\sourceopengl\LearnOpenGL-master\LearnOpenGL-master\build\7.in_practice__1.debugging.vcxproj">
+      <Project>{E1E7C05D-5983-35EA-B91C-9520DB50530C}</Project>
+      <Name>7.in_practice__1.debugging</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\sourceopengl\LearnOpenGL-master\LearnOpenGL-master\build\GLAD.vcxproj">
+      <Project>{668C8FF6-66A9-353C-892B-F1C7EF135004}</Project>
+      <Name>GLAD</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\sourceopengl\LearnOpenGL-master\LearnOpenGL-master\build\STB_IMAGE.vcxproj">
+      <Project>{06A980DE-F392-3D6D-ADD1-447F0CF600BD}</Project>
+      <Name>STB_IMAGE</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
