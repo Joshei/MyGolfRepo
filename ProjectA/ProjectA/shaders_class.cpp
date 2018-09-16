@@ -6,15 +6,16 @@
 #include <learnopengl/shader_s.h>
 #include <C:/openglusage/glm/glm.hpp>
 #include <iostream>
-//test file problem : AProject.vcxproj.user changed to Aproject.vcxproj
-//in dir:  c:/sourceopengl/learnopengl-master/learnopeng-lmaster/build/AProject/AProject/Aproject.vcxproj
+
+//test
+
 //#include <GL/glew.h>
 //#include <GL/GL.h>
 //used with initial single page
 unsigned int VAO1, VBO1;
 
 std::vector< unsigned int > vertexIndices, uvIndices, normalIndices;
-// cahnge-
+//test
 
 std::vector< glm::vec2 > uvs;
 std::vector< glm::vec3 > normals; // Won't be used at the moment.
