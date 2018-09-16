@@ -6,6 +6,8 @@
 #include <learnopengl/shader_s.h>
 #include <C:/openglusage/glm/glm.hpp>
 #include <iostream>
+//test file problem : AProject.vcxproj.user changed to Aproject.vcxproj
+//in dir:  c:/sourceopengl/learnopengl-master/learnopeng-lmaster/build/AProject/AProject/Aproject.vcxproj
 //#include <GL/glew.h>
 //#include <GL/GL.h>
 //used with initial single page
