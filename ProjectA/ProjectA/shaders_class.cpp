@@ -12,7 +12,7 @@
 unsigned int VAO1, VBO1;
 
 std::vector< unsigned int > vertexIndices, uvIndices, normalIndices;
-// josha
+// cahnge-
 
 std::vector< glm::vec2 > uvs;
 std::vector< glm::vec3 > normals; // Won't be used at the moment.
